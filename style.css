@@ -1,11 +1,20 @@
 *{
     box-sizing: border-box;
+    font-family: popp;
 }
 
 /* Shared Section */
 .container{
     max-width: 1280px;
     margin: auto;
+}
+.panda-btn{
+    background-color: #f04e8c;
+    border-radius: 5px;
+    padding: 15px 35px;
+    border: none;
+    color: white;
+    font-weight: bold;
 }
 
 
@@ -14,6 +23,7 @@
 nav{
     display: flex;
     justify-content: space-between;
+    padding: 10px 0;
 }
 .search-parent{
     position: relative;
@@ -41,4 +51,37 @@ nav{
     color: #707070;
     font-size: 16px;
     font-weight: 500;
+}
+
+/* Banner Section */
+
+.banner{
+    background-color: rgb(254, 234, 233);
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+.banner h2{
+    color: rgb(31, 31, 31);
+    font-size: 52px;
+    font-weight: bold;
+}
+.banner p{
+    color: #4e4e4e;
+    width: 470px;
+}
+.banner img{
+    width: 400px;
+    height: 380px;
+}
+.banner-price{
+    color: #ff136f;
+    font-weight: bold;
+    font-size: 52px;
+    display: block;
+    margin-bottom: 15px;
 }
