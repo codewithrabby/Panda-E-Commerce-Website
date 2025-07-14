@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Shared Section */
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+
+/* Nav bar section */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.search-parent{
+    position: relative;
+    color: #bababa;
+}
+.search-parent input{
+    border-radius: 66px;
+    background-color: rgb(241, 241, 241);
+    padding: 15px 30px;
+    width: 500px;
+    border: none;
+}
+.search-parent i{
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.nav-items li a{
+    text-decoration: none;
+    color: #707070;
+    font-size: 16px;
+    font-weight: 500;
+}
